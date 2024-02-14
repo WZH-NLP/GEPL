@@ -11,5 +11,4 @@ class Instance:
 	trigger_positions: List[int] = None
 	entities: List[str] = None
 	triggers: List[str] = None
-	co_occurs: List[str] = None
 

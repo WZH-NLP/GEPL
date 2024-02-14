@@ -14,7 +14,7 @@ echo "Run on GPU $GPUID"
 #TEST=$4
 # data
 DATASET=$2
-PROJECT_ROOT=/data/wanghanbing-slurm/models/NER/MTD+demo+graph/
+PROJECT_ROOT=$(dirname "$(readlink -f "$0")")
 DATA_ROOT=$PROJECT_ROOT/dataset/
 
 # model

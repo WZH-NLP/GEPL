@@ -21,12 +21,12 @@ TOKENIZER_TYPE=bert
 SPAN_TYPE=bert
 TYPE_TYPE=bert
 
-# TOKENIZER_NAME='./cached_models/bert-base-cased'
-# SPAN_MODEL_NAME='./cached_models/bert-base-cased'
-# TYPE_MODEL_NAME='./cached_models/bert-base-cased'
-TOKENIZER_NAME='./cached_models/literature_train_0.4/checkpoint-best-type-test'
-SPAN_MODEL_NAME='./cached_models/literature_train_0.4/checkpoint-best-span-test'
-TYPE_MODEL_NAME='./cached_models/literature_train_0.4/checkpoint-best-type-test'
+TOKENIZER_NAME='./cached_models/bert-base-cased'
+SPAN_MODEL_NAME='./cached_models/bert-base-cased'
+TYPE_MODEL_NAME='./cached_models/bert-base-cased'
+# TOKENIZER_NAME='./cached_models/literature_train_0.4/checkpoint-best-type-test'
+# SPAN_MODEL_NAME='./cached_models/literature_train_0.4/checkpoint-best-span-test'
+# TYPE_MODEL_NAME='./cached_models/literature_train_0.4/checkpoint-best-type-test'
 
 TAU_SPAN=$3
 TAU_TYPE=$4

@@ -5,7 +5,6 @@
 #SBATCH --nodelist=gpu07
 #SBATCH --gres=gpu:1
 #SBATCH --time=999:00:00
-#source /data/wanghanbing-slurm/.bashrc
 
 
 GPUID=$1
